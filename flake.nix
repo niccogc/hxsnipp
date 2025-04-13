@@ -1,4 +1,5 @@
 {
+  description = "A nice lsp to use snippets in helix provided by erasin";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
