@@ -10,6 +10,6 @@ pkgs.rustPlatform.buildRustPackage rec {
     # sha256 = pkgs.lib.fakeHash;
     sha256 = "sha256-nbzx/HV5X6KeDX5ELrb98y9zOrCPUMlI11wgBR+0hTM=";
   };
-  # cargoHash = "sha256-72QMr7ZR/bd9AqATd65Ou/ngH9zQJc043AxltRzPV1M=";
-  cargoHash = pkgs.lib.fakeHash;
+  cargoHash = "sha256-6+E1A0vAJYR6DijqIET6Vl6kWiWF9pweKUZRk0wS2CQ=";
+  # cargoHash = pkgs.lib.fakeHash;
 }
