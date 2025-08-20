@@ -2,7 +2,6 @@
 pkgs.rustPlatform.buildRustPackage rec {
   pname = "hx-lsp";
   version = "0.2.11";
-  useFetchCargoVendor = true;
   src = pkgs.fetchFromGitHub {
     owner = "erasin";
     repo = "hx-lsp";
